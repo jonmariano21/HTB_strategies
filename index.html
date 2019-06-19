@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+		<meta name="generator" content="Jekyll v3.8.5">
+		
+		<title> Carousel Template · Bootstrap </title>
+
+		<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
+		<!-- Bootstrap core CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 		crossorigin="anonymous">
+		
+		<style>
+			.bd-placeholder-img {
+				font-size: 1.125rem;
+				text-anchor: middle;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+    		}
+
+			@media (min-width: 768px) {
+				.bd-placeholder-img-lg {
+					font-size: 3.5rem;
+        		}	
+    		}
+    	</style>
+    	
+		<!-- Custom styles for this template -->
+		<link href="/Users/jonathanmariano/Documents/Website_Example/carousel.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			  
+				<a class="navbar-brand" href="#"> HTB|strategies </a>
+		  
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		  
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"> Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about"> About Me </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact"> Contact </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" href="#"> Disabled </a>
+						</li>
+					</ul>
+					<!--
+					<form class="form-inline mt-2 mt-md-0">
+						<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+					</form>
+					-->
+				</div>
+			</nav>
+		</header>
+
+		<main role="main">
+
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+			
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
+							role="img"><rect width="100%" height="100%" fill="#777"/>
+						</svg>
+					
+						<div class="container">
+							<div class="carousel-caption text-left">	           
+
+								<h1>Header</h1>
+									<p>A little something about the Header</p>
+									<p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+							</div>
+						</div>
+					</div>
+				
+					<div class="carousel-item">
+						<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
+							role="img"><rect width="100%" height="100%" fill="#777"/>
+						</svg>	
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Header 2</h1>
+								<p>A little something about Header 2</p>
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
+							role="img"><rect width="100%" height="100%" fill="#777"/>
+						</svg>
+						<div class="container">
+							<div class="carousel-caption text-right">
+								<h1>Header 3</h1>
+								<p>A little something about Header 3</p>
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div> <!-- /myCarousel -->
+
+
+			<!-- Marketing messaging and featurettes
+			================================================== -->
+			<!-- Wrap the rest of the page in another container to center all the content. -->
+
+			<div class="container marketing">
+				<!-- Three columns of text below the carousel -->
+				<div class="row">
+					<div class="col-lg-4">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
+							role="img" aria-label="Placeholder: 140x140">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#777"/>
+								<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2> ENGAGE </h2>
+						<p> 
+							HTB strategies engages federal policymakers, legislators, and regulators to ensure policy, political, 
+							and legal issues are monitored and will engage appropriately to achieve your needs.  
+						</p>
+						<p> <a class="btn btn-secondary" href="#" role="button">View details &raquo;</a> </p>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
+							role="img" aria-label="Placeholder: 140x140">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#777"/>
+								<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2>MONITOR</h2>
+						<p> 
+							HTB strategies can help develop your corporate driven- policy goals or help implement existing corporate 
+							policy-driven goals.  HTB can help  draft appropriate political, legislative, and communication strategies 
+							and communicate externally with appropriate policymakers, external and internal stakeholders.
+						</p>
+						<p> <a class="btn btn-secondary" href="#" role="button"> View details &raquo;</a> </p>
+					</div><!-- /.col-lg-4 -->
+					<div class="col-lg-4">
+						<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" 
+							role="img" aria-label="Placeholder: 140x140">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#777"/>
+								<text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
+						</svg>
+						<h2> RESULTS </h2>
+						<p> 
+							With experience in privacy, cybersecurity, copyright, trademark, tax issues, postal issues, and more from legal, 
+							political, and corporate strategy perspectives, HTB strategies helps your company receive the policy results it 
+							wants, whether that is promoting legislation, preventing legislation, or developing multi-level political, legal, 
+							and policy strategies to achieve those results. 
+						</p>
+						<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+					</div><!-- /.col-lg-4 -->
+				</div><!-- /.row -->
+			
+				<!-- START THE FEATURETTES -->
+				<hr class="featurette-divider">
+				<div class="row featurette">
+					<div class="col-md-7">
+						<h2 class="featurette-heading"> POLICY MAKING -  <span class="text-muted"> GOVERNMENT AFFAIRS.</span></h2>
+						<p class="lead"> 
+							HTB Strategies delivers your policy and legislative priorities by interacting effectively with policy makers. 
+							Whether you have administrative, regulatory, or legislative goals, HTB Strategies can help you develop the 
+							relationships you need, create your legislative strategy, and implement your plans.
+						</p>
+					</div>
+					<div class="col-md-5">
+						<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" 
+							preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" 
+								height="100%" fill="#eee"/>
+								<text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+						</svg>
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
+				<div class="row featurette">
+					<div class="col-md-7 order-md-2">
+						<h2 class="featurette-heading">POLICY PRIORITIZATION & STRATEGY </h2>
+						<p class="lead">
+							All policy making begins with goals.  HTB Strategies helps you prioritize those goals and design a plan for 
+							your success. Developing a policy strategy is necessary to achieve success and to use resources wisely. 
+							HTB Strategies can help develop your internal policy-decision making and help you succeed in your policy 
+							and legislative goals. 
+						</p>
+					</div>
+					<div class="col-md-5 order-md-1">
+						<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" 
+							preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#eee"/>
+								<text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+						</svg>
+					</div>
+				</div>
+			
+				<hr class="featurette-divider">
+				<div class="row featurette">
+					<div class="col-md-7">
+						<h2 class="featurette-heading"> MESSAGING & BRANDING </h2>
+						<p class="lead">
+							DHTB Strategies can help you craft your policy positions to ensure your message and branding has the greatest impact.  
+							Each policy-making audience needs specific messaging and HTB strategies can help you be most effective.
+						</p>
+					</div>
+					<div class="col-md-5">
+						<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" 
+							preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#eee"/>
+								<text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+						</svg>
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
+				<div class="row featurette">
+					<div class="col-md-7 order-md-2">
+						<h2 class="featurette-heading"> COALITION BUILDING </h2>
+						<p class="lead"> 
+							HTB Strategies understands how to bring together and join diverse industry, public interest groups, 
+							and others based on common policy goals and use the joined forces to lead to policy results. 
+						</p>
+					</div>
+					<div class="col-md-5">
+						<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" 
+							preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#eee"/>
+								<text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+						</svg>
+					</div>
+				</div>
+
+				<hr class="featurette-divider">
+				<div class="row featurette">
+					<div class="col-md-7">
+						<h2 class="featurette-heading"> COLLATERAL MATERIALS </h2>
+						<p class="lead"> 
+							HTB Strategies can help you develop the collateral materials you need to present your position with 
+							key regulators and policy makers before Congress, the Executive Branch, and other agencies. 
+						</p>
+					</div>
+					<div class="col-md-5">
+						<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" 
+							preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
+								<title>Placeholder</title>
+								<rect width="100%" height="100%" fill="#eee"/>
+								<text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+						</svg>
+					</div>
+				</div>
+				<hr class="featurette-divider">
+				<!-- /END THE FEATURETTES -->
+			</div> <!-- /container marketing -->
+			
+			<!-- OFF CENTER - WANT BACKGROUND IMAGE TO TAKE UP ENTIRE SCREEN -->
+			<div class="container-fluid anchor parallax" id="about" data-stellar-background-ratio="0.5">
+				<div class="header">
+					<h1>About Me</h1>
+				</div> <!-- /header -->
+
+				<div class="row">
+					<div class="image-about col-md-3 col-xs-1 col-sm-6 col-lg-3">
+						<img class="prof-pic img-responsive" src="/Users/jonathanmariano/Documents/Website_Example/profilePic.png" alt="Facebook">
+					</div> <!-- /image -->
+					<div class="intro col-md-3 col-xs-12 col-sm-6 col-lg-3">
+						<h2> Our Founder </h2>
+						<p> 
+							HTB Strategies founder, Hillary Brill, has over 20 years of experience in all aspects of policy-making 
+							including media, legal, grassroots and legislative practices.  
+						</p>
+					</div> <!-- /intro -->
+					<div class="skill col-md-3 col-xs-12 col-sm-6 col-lg-3">
+						<h2>My Skills</h2>
+						<ul id="skill-list">
+							<li>Climbing</li>
+							<li>Embedded Programming</li>
+							<li>Tennis</li>
+							<li>Puns</li>
+							<li>Integration Testing</li>
+						</ul>
+					</div> <!-- /skill -->
+				</div> <!-- /row -->
+				<div class="main-text">
+					<h2>Our Founder</h2>
+					<p> 
+						HTB Strategies founder, Hillary Brill, has over 20 years of experience in all aspects of policy-making 
+						including media, legal, grassroots and legislative practices.  
+					</p>
+				
+					<br>
+    
+					<p> 
+						Brill started in broadcast journalism with stints at CNN, Meet the Press, ABC News Paris Bureau, AP 
+						and Reuters, but soon realized that instead of writing about the news, she wanted to help make the news.  
+						Graduating from Harvard with a degree in Government, Brill went to DC to attend Georgetown Law and never left.
+					</p> 
+				
+					<br>
+
+					<p> 
+						As communications and technology counsel with Cole, Raywid & Braverman, Mintz Levin, and Covington & Burlington, 
+						Brill drafted one of the first primers on Internet Policy.  She also worked on telecommunications, broadcasting, 
+						software licensing, SPAM, intellectual property, privacy, and cybsersecurity issues for clients including 
+						TimeWarner, AOL, Microsoft, ABC, NBC, CBS,  and Smithsonian.  
+					</p>
+				
+					<br>
+
+					<p> 
+						Pursuing her desire to "practice policy,"  Brill left legal practice to work with key Legislator, 
+						Congressman Rick Boucher.  Her portfolio included Internet policy issues such as net neutrality, 
+						SPAM, patent reform, telemedicine, copyright, trademark, telecommunications, privacy and cybersecurity policy.  
+					</p>
+				
+					<br>
+
+					<p> 
+						eBay -- which had just acquired Paypal --  drafted Brill to help run its nascent eBay and Paypal's government 
+						relations policy affairs.  During her almost decade there, she worked in several roles including Legislative 
+						Counsel, Senior Global Policy Counsel, and Head of Government Relations for eBay and Paypal. 
+					</p>
+				
+					<br>
+
+					<p> 
+						In her professional capacity, Brill has spoken and continues to speak on panels, workshops, and at conferences 
+						as an Internet policy expert.  
+					</p>
+				
+					<br>
+    
+					<p> 
+						Today, as principal of HTB Strategies, Brill consults with select clients on exciting technology policy projects.  
+						She also shares her unique perspective on "policy making" during workshops as a Professor at Georgetown law 
+						teaching her novel curriculum "Practicing Policy in the Internet Economy." 
+					</p>
+				
+					<br>
+				</div> <!-- /main-text -->
+			</div> <!-- /container-fluid anchor parallax -->
+							
+			<div class="container marketing">
+				<hr class="featurette-divider">
+    
+				<div class="container-fluid parallax" id="contact">
+					<div class="contact-content col-lg-4 col-md-4">
+						<div class="header">
+							<h1>Contact</h1>
+						</div> <!-- /header -->
+
+						<div class="email">
+							<span class="glyphicon glyphicon-envelope">
+								<a href="mailto:ikuangsl@gmail.com">EMAIL@gmail.com</a>
+							</span>
+						</div> <!-- /email -->
+
+						<div class="email">
+							<span class="glyphicon glyphicon-phone">
+								<a>1-1111111111111111111</a>
+							</span>
+						</div> <!-- /phone -->
+
+						<div class="profiles">
+							<h2>
+								<span class="glyphicon glyphicon-plus"></span>
+								<a class="links" href="https://www.linkedin.com/in/ikuangsl">LinkedIn</a>
+								<span class="glyphicon glyphicon-hand-right"></span>
+								<a class="links" href="https://www.facebook.com/steven.liu.7796">Facebook</a>
+								<span class="glyphicon glyphicon-user"></span>
+								<a class="links"  href="https://github.com/stevotennis">Github</a>
+							</h2>
+						</div> <!-- /profiles -->
+			
+						#018955
+						<div class="more">
+							<p>Contact me if you want to know more about me!</p>
+        				</div> <!-- /more -->
+
+						<div id="map">
+				
+						</div>
+						<!-- <iframe class='google-map' #00891d
+							<div class="header">
+							<h1>Tell me something...</h1>
+							<p> Contact HTB Strategies for help implementing, developing, or prioritizing your corporate policy-driven goals.  </p>
+							<p> HTB Strategies is known for its <b>personalized</b> tailored-approach and for <b>bringing together</b> companies with the right services for your needs. </p>
+							<p> HTB Strategies provides a complementary initial consult. </p>
+
+							</div> <!-- /header -->
+						<form>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input type="text" class="name-box form-control" placeholder="Enter your name" id="name" title="Name" maxlength=40>
+        					</div> <!-- /form-group -->
+          
+							<div class="form-group">
+								<label for="email">Email Address*</label>
+								<input type="email" class="mail-box form-control" placeholder="Enter your email" id="email" required=”required” title="Email" maxlength=25>
+        					</div> <!-- /form-group -->
+
+							<div class="form-group">
+								<label for="number">Phone Number</label>
+								<input type="text" class="number-box form-control" placeholder="Enter your number (optional)" id="number" title="number" maxlength=13 minlength=10>
+        					</div> <!-- /form-group -->
+
+							<div class="form-group">
+								<label for="message">Message*</label>
+								<textarea style="resize:none" cols="40" rows="3" placeholder="Write your message here..." class="message-box form-control" id="message" 
+									required=”required” title="Message" minlength=10 maxlength=500>
+									</textarea>
+									<p id="char-count"></p>
+									<p id="visible-comment"></p>
+        					</div>
+        
+							<br>
+				
+							<button type="submit" class="btn btn-default" id="button">Submit</button>
+						</form>
+    				</div> <!-- /contact-content col-lg-4 col-md-4 -->
+    			</div> <!-- /container-fluid parallax -->    
+			</div><!-- /.container marketing -->
+
+
+			<!-- FOOTER -->
+			<footer class="container">
+				<p class="float-right">
+					<a href="#">Back to top</a>
+				</p>
+				<p>&copy; 2017-2019 Company, Inc. &middot; 
+					<a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+				</p>
+			</footer>
+		</main>
+		
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+			crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+			crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+			crossorigin="anonymous"></script>
+	</body>
+</html>
